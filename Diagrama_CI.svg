@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <text x="600" y="55" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="#1f2937">Flujo de Integracion Continua</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <rect x="50" y="110" width="210" height="85" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="155" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#1e3a8a">1. Modificacion</text>
+  <text x="155" y="174" text-anchor="middle" font-family="Arial" font-size="18" fill="#1e3a8a">del codigo</text>
+
+  <rect x="330" y="110" width="180" height="85" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="420" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#1e3a8a">2. Commit</text>
+  <text x="420" y="174" text-anchor="middle" font-family="Arial" font-size="18" fill="#1e3a8a">registro local</text>
+
+  <rect x="580" y="110" width="210" height="85" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="685" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#1e3a8a">3. Envio al</text>
+  <text x="685" y="174" text-anchor="middle" font-family="Arial" font-size="18" fill="#1e3a8a">repositorio</text>
+
+  <rect x="860" y="110" width="280" height="85" rx="12" fill="#e0e7ff" stroke="#4f46e5" stroke-width="3"/>
+  <text x="1000" y="145" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#312e81">4. Ejecucion automatica</text>
+  <text x="1000" y="174" text-anchor="middle" font-family="Arial" font-size="18" fill="#312e81">de CI</text>
+
+  <line x1="260" y1="152" x2="330" y2="152" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="510" y1="152" x2="580" y2="152" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="790" y1="152" x2="860" y2="152" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <line x1="1000" y1="195" x2="1000" y2="270" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="860" y="270" width="280" height="85" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <text x="1000" y="305" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#166534">5. Ejecucion de</text>
+  <text x="1000" y="334" text-anchor="middle" font-family="Arial" font-size="18" fill="#166534">pruebas automatizadas</text>
+
+  <line x1="860" y1="312" x2="760" y2="312" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <polygon points="620,235 760,312 620,390 480,312" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="620" y="304" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold" fill="#92400e">6. Pruebas</text>
+  <text x="620" y="332" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold" fill="#92400e">pasan?</text>
+
+  <line x1="480" y1="312" x2="340" y2="312" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="406" y="292" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#dc2626">NO</text>
+  <rect x="90" y="270" width="250" height="85" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+  <text x="215" y="305" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#991b1b">7. Correccion</text>
+  <text x="215" y="334" text-anchor="middle" font-family="Arial" font-size="18" fill="#991b1b">del codigo</text>
+
+  <line x1="215" y1="270" x2="215" y2="205" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="230" y="225" font-family="Arial" font-size="16" fill="#991b1b">nuevo commit y envio</text>
+
+  <line x1="620" y1="390" x2="620" y2="465" stroke="#16a34a" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="642" y="430" font-family="Arial" font-size="18" font-weight="bold" fill="#166534">SI</text>
+  <rect x="480" y="465" width="280" height="100" rx="12" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+  <text x="620" y="505" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#166534">8. Proceso continuo</text>
+  <text x="620" y="535" text-anchor="middle" font-family="Arial" font-size="18" fill="#166534">Integracion, revision y entrega</text>
+
+  <text x="600" y="650" text-anchor="middle" font-family="Arial" font-size="18" fill="#374151">Resultado esperado: el codigo no avanza si falla una prueba; si pasa, continua el proceso.</text>
+</svg>

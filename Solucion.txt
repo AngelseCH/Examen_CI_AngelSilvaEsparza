@@ -1,0 +1,14 @@
+1. Prueba automatizada:
+   Utilizaria una prueba unitaria que cree o simule un producto con precio de $1,000, aplique un descuento del 10% y compare el resultado con el valor esperado de $900.
+
+2. Que debe suceder cuando la prueba falla en CI:
+   El proceso de CI debe marcar el build como fallido, impedir la aprobacion o integracion del cambio y avisar al equipo mediante el registro del pipeline y la notificacion configurada.
+
+3. Que debe hacer el programador para corregirlo:
+   Debe revisar la funcion de calculo del descuento, localizar por que se conserva el precio original y corregirla para calcular el 10% y restarlo al precio, por ejemplo: precio - (precio * 0.10).
+
+4. Como comprobar que la correccion funciona:
+   Ejecutaria la prueba automatizada nueva y las pruebas existentes en local y en CI. La prueba de $1,000 debe obtener $900; ademas, revisaria que el trabajo completo en CI termine correctamente.
+
+5. Regla para evitar que vuelva a ocurrir:
+   Bloquearia cambios que rompan las pruebas, configurando una rama protegida que solo permita la integracion si la prueba de calculo de descuento y todo el conjunto automatizado pasan en CI.
