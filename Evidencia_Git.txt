@@ -1,0 +1,14 @@
+EVIDENCIA DEL CONTROL DE VERSIONES
+
+Repositorio: Examen_CI_NombreAlumno
+Nombre del proyecto: Sistema de Control y Validacion de Codigo
+Objetivo: Organizar el codigo y validar automaticamente los cambios.
+
+ARCHIVOS INCLUIDOS
+- README.md
+- Solucion.txt
+- Diagrama_CI.svg
+- Evidencia_Git.txt
+
+COMMIT REALIZADO
+Mensaje: Primer commit del proyecto
