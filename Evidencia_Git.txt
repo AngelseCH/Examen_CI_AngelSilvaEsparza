@@ -17,3 +17,5 @@ ESTADO REAL DEL REPOSITORIO
 
 f79fb1e Agregar evidencia del proyecto
 d54b477 Primer commit del proyecto
+ESTADO ACTUAL
+
